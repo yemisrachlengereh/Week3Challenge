@@ -12,7 +12,7 @@ public class Other {
     private String skills;
     private String when;
     private String whenwork;
-
+     private String other;
     private String level;
 
     public String getLevel() {
@@ -20,7 +20,8 @@ public class Other {
     }
 
     public void setLevel(String level) {
-        this.level = level;}
+        this.level = level;
+    }
 
 
     public String getWhenwork() {
@@ -112,4 +113,3 @@ public class Other {
         this.skills = skills;
     }
 }
-
